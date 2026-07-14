@@ -1,0 +1,180 @@
+/*Top navbar*/
+.top-logo{
+    width:180px;    
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-buttons{ 
+    display: flex;
+    padding-top: 20px;
+}
+
+.Search-bar{
+    width: 200px;
+    height:40px;
+    
+}
+
+.nav-button1{
+    width: 250px;
+    height: 50px;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: small;
+    
+}
+
+.nav-button2{
+ width: 250px;
+    height: 50px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.nav-button1:hover{
+    background-color: red;
+}
+.nav-button2:hover{
+    background-color: red;
+}
+
+.navigation-bar{
+    display: flex;
+    gap: 50px;
+    word-spacing: 10px;
+  justify-content: center;
+   list-style: none;
+}
+.nav-link active{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+}
+
+.top-text{
+    padding-top:70px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-shadow: 10px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.detail-para-img{
+    display: flex;
+    box-sizing: border-box;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+.right-img{
+    box-sizing: border-box;
+}
+
+.detail-img{
+    display: flex;
+    padding-right: 20px;
+    gap: 80px;
+    padding-top: 30px;
+}
+
+.services{
+    text-align: center;
+    padding-top: 150px;
+
+}
+
+.four-lines{
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.four-lines div{
+    width: 10px;
+    height:3px ;
+    color: black;    
+}
+
+.service-content{
+    display: flex;  
+    padding-left: 40px;
+    box-sizing: border-box; 
+    padding-top: 30px;
+    padding-left: 40px; 
+}
+
+.service-content div{
+    width: 32%;
+}
+
+.officer-message{
+    background-image: url(bankcard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: white;   
+}
+
+.Message-para{
+    width:500px;
+    padding-left:50px ;
+    padding-top: 30px;
+}
+
+.download-app{
+    background-image: url(driving\ license\ mobile\ app.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+.mobile-app{
+    padding-top: 30px;
+    padding-left: 40px;
+    border-radius: 30%;
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+
+.about-dls{
+    background-image: url(black\ background.jpg);
+    display: flex;
+    padding-right: 30px;
+    color: white;
+}
+
+.bottom-left{
+    padding-top: 50px;
+    padding-left: 30px;    
+}
+
+.bottom-right{
+    padding-right: 30px;
+    padding-top: 50px;
+    text-decoration: underline;
+    font-weight: 700;
+    font-style: oblique;
+    font-size: medium;
+}
+
+.custom-tabel{
+    background-image: url(black\ background.jpg);
+    border-spacing: 30px;
+    padding-left: 20px;
+row-gap: 30px;
+}
+

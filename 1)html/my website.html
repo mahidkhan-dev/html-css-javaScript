@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>"My Website"></title>
+    <style>
+        h1 {
+            color: blue;
+            font-family: italic;
+            font-size: 40px;
+            text-align: center;
+        }
+
+        p {
+            color: blueviolet;
+            font-family: Italic;
+            font-size: 30px;
+            text-align: left;
+        }
+
+        h2 {
+            color: brown;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 1000;
+            text-decoration: double;
+            text-align: center;
+            background-color: aqua;
+        }
+
+        table {
+            border-style: double;
+            border: 30px;
+            width: 300px;
+
+        }
+
+        tr {
+            text-align: center;
+            background-color: antiquewhite;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        table {
+
+            box-sizing: content-box;
+
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar-expand-sm bg-light navbar-light">
+        <div class="container-fluid">
+            <!----Links-->
+            <ul class="navbar">
+                <li class="nav-item">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+                            </li>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" herf="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" herf="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <h1>" Welcome To My Website"></h1>
+    <p> "Enter Information"
+
+    </p>
+
+
+    <h1 Register Yourself></h1>
+    <form>
+
+        <label>Name</label>
+        <input type="text">
+        <br><br>
+        <label>Email</label>
+        <input type="email">
+        <br><br>
+        <label>Age</label>
+        <input type="Age">
+        <br><br>
+        <label>Gender</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+        <label>Skill</label>
+        <input type="checkbox"> HTML
+        <input type="checkbox"> CSS
+        <input type="checkbox"> JAVA SCRIPT
+        <br><br>
+        <input type="Submit" value="Register">
+        <!---Reset Button--->
+        <input type="reset" value="Clear Form">
+
+    </form>
+    <table>
+
+
+        <h2> Student Information </h2>
+
+        <tr>
+            <th>Roll number </th>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Marks</th>
+        </tr>
+
+
+        <tr>
+            <td>1</td>
+            <td>Mahad</td>
+            <td>Maths</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Zeshan</td>
+            <td>Maths</td>
+            <td>75</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Ayan</td>
+            <td>Maths</td>
+            <td>80</td>
+        <tr>
+            <td>1</td>
+            <td>Mahad</td>
+            <td>Chemistry</td>
+            <td>75</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Zeshan</td> 
+            <td>Chemistry</td>
+            <td>80</td>
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Ayan</td>
+            <td>Chemistry</td>
+            <td>90</td>
+        </tr>
+
+    </table>
+
+</body>
