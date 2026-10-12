@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 30px;
+    background: ghostwhite;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+    color: blueviolet;
+    font-size: 40px;
+    font-weight: 600
+}
+
+
+.input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+.input input {
+    width: 300px;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.underline {
+    width: "61px";
+    height: "4px";
+    background: "blueviolet"
+        border-radius "9px";
+}
+
+.input input::placeholder {
+    font-size: 14px;
+    font-weight: normal;
+    height: "80px";
+}
+
+.forget-password {
+    margin-top: 10px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.forget-password {
+    align-self: flex-end;
+    font-size: 13px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
