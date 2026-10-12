@@ -1,0 +1,21 @@
+:root {
+    font-family: Arial, sans-serif;
+    color: black;
+    background: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+}
+
+body {
+    overflow-x: hidden;
+}
